@@ -1,0 +1,26 @@
+body {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      background-color: #f4f4f4;
+      margin: 0;
+      font-family: Arial, sans-serif;
+    }
+
+    /* Style the button */
+    #counterBtn {
+      background-color: #4caf99; /* Green */
+      color: white;
+      border: none;
+      padding: 15px 25px;
+      font-size: 18px;
+      border-radius: 8px;
+      cursor: pointer;
+      transition: background-color 0.3s ease;
+    }
+
+    /* Hover effect */
+    #counterBtn:hover {
+      background-color: #45a094;
+    }
